@@ -15,8 +15,6 @@ namespace Question2
             SuitSize = card_heap.SuitSize;
             HighCard game = new HighCard(card_heap, GetGameRules());
             ShowResult (game.Play());
-            ShowResult(game.Play2());
-
         }
 
         private static CardHeap GetCardHeap()
